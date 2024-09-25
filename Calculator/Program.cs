@@ -49,5 +49,7 @@
             var num2 = double.Parse(Console.ReadLine());
             Console.WriteLine($"O resultado da divisão é: {num1 / num2}");
         }
+
+
     }
 }
