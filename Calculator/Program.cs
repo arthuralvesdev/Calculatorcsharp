@@ -19,7 +19,7 @@
             Console.WriteLine("5 - Sair");
             Console.WriteLine("-----------------");
             Console.WriteLine("Digite uma opção: ");
-            Console.ReadLine();
+            short res = short.Parse(Console.ReadLine());
         }
 
         public static void Adicao()
