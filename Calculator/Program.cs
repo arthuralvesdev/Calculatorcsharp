@@ -4,6 +4,12 @@
     {
         static void Main(string[] args)
         {
+            Menu();
+        }
+
+        static void Menu()
+        {
+            Console.Clear();
             Console.WriteLine("Seja bem vindo a Calculadora");
             Console.WriteLine("Escolha a operação: ");
             Console.WriteLine("1 - Adição");
@@ -11,7 +17,9 @@
             Console.WriteLine("3 - Multiplicacao");
             Console.WriteLine("4 - Divisao");
             Console.WriteLine("5 - Sair");
-
+            Console.WriteLine("-----------------");
+            Console.WriteLine("Digite uma opção: ");
+            Console.ReadLine();
         }
 
         public static void Adicao()
