@@ -20,9 +20,20 @@
             Console.WriteLine("-----------------");
             Console.WriteLine("Digite uma opção: ");
             short res = short.Parse(Console.ReadLine());
+
+            switch (res)
+            {
+                case 1: Adicao(); break;
+                case 2: Subtracao(); break;
+                case 3: Multiplicacao(); break;
+                case 4: Divisao(); break;
+                default: Menu(); break;
+            }
         }
 
-        public static void Adicao()
+        
+
+    public static void Adicao()
         {
             Console.WriteLine("Digite o primeiro número: ");
             var num1 = double.Parse(Console.ReadLine());
