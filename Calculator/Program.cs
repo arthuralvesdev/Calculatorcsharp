@@ -31,42 +31,65 @@
             }
         }
 
-        
-
     public static void Adicao()
         {
             Console.WriteLine("Digite o primeiro número: ");
-            var num1 = double.Parse(Console.ReadLine());
+
+            float num1 = float.Parse(Console.ReadLine());
+
             Console.WriteLine("Digite o segundo número: ");
-            var num2 = double.Parse(Console.ReadLine());
+
+            float num2 = float.Parse(Console.ReadLine());
+
             Console.WriteLine($"O resultado da adição é: {num1 + num2}");
+            Console.ReadKey();
+            Menu();
         }
 
         public static void Subtracao()
         {
             Console.WriteLine("Digite o primeiro número: ");
-            var num1 = double.Parse(Console.ReadLine());
+
+            float num1 = float.Parse(Console.ReadLine());
+
             Console.WriteLine("Digite o segundo número: ");
-            var num2 = double.Parse(Console.ReadLine());
+
+            float num2 = float.Parse(Console.ReadLine());
+
             Console.WriteLine($"O resultado da subtração é: {num1 - num2}");
+            Console.ReadKey();
+            Menu();
         }
 
         public static void Multiplicacao()
         {
             Console.WriteLine("Digite o primeiro número: ");
-            var num1 = double.Parse(Console.ReadLine());
+
+            float num1 = float.Parse(Console.ReadLine());
+
             Console.WriteLine("Digite o segundo número: ");
-            var num2 = double.Parse(Console.ReadLine());
+
+            float num2 = float.Parse(Console.ReadLine());
+
             Console.WriteLine($"O resultado da multiplicação é: {num1 * num2}");
+            Console.ReadKey();
+            Menu();
         }
 
         public static void Divisao()
         {
             Console.WriteLine("Digite o primeiro número: ");
-            var num1 = double.Parse(Console.ReadLine());
+
+            float num1 = float.Parse(Console.ReadLine());
+            
+
             Console.WriteLine("Digite o segundo número: ");
-            var num2 = double.Parse(Console.ReadLine());
+
+            float num2 = float.Parse(Console.ReadLine());
+
             Console.WriteLine($"O resultado da divisão é: {num1 / num2}");
+            Console.ReadKey();
+            Menu();
         }
 
 
